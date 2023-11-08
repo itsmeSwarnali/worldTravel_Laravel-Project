@@ -1,0 +1,697 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body a{
+    text-decoration: none;
+    list-style: none;
+}
+/*
+=============
+Color
+=============*/
+.paragraph{
+    color: var(--theme-paragraph-color);
+}
+
+.darkblue{
+    color: var(--theme-darkblue-color);
+}
+.light{
+    color: var(--theme-light-color);
+}
+
+.primary{
+    color: var(--theme-primary-color);
+}
+.gray{
+    color: var(--theme-gray-color);
+}
+.white{
+    color: var(--theme-white-color);
+}
+
+
+.bg-darkblue{
+    background: var(--theme-darkblue-color);
+}
+.bg-light{
+    background: var(--theme-light-color)!important;
+}
+
+.bg-primary{
+    background: var(--theme-primary-color) !important;
+}
+.bg-gray{
+    background: var(--theme-gray-color);
+}
+.bg-white{
+    background: var(--theme-white-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--theme-general-font);
+}
+
+
+/*============
+Button
+============*/
+
+ .btn{
+    border-radius: 6px !important;
+    font-family: "Roboto", serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    left: 10%;
+    letter-spacing: 1.5px;
+}
+.book{
+    margin-top:20px;
+    padding: 10px 20px;
+    background-color: var(--theme-primary-color);
+    border:none;
+    color: white;
+    margin-left: 115px
+}
+.top-book{
+    background-color: var(--theme-primary-color);
+}
+
+.sign-btn, .login-btn{
+    background: var(--theme-primary-color);
+    font-weight: 500!important;
+    font-size: 16px;
+}
+
+.btn:hover{
+    filter: brightness(120%);
+    background: var(--theme-primary-color);
+}
+
+.btn-success:hover{
+    background:#115937;
+}
+
+.search_btn{
+    padding: 12px 20px !important;
+    margin-top: 0px!important;
+    margin-left: 18px!important;
+}
+.search_btn:hover{
+    padding: 12px 20px !important;
+}
+
+.btn_places{
+    padding: 3px 5px !important;
+    margin-top: 0px!important;
+    font-size: 12px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border-radius: 30px !important;
+    background: var(--theme-primary-color);
+    color: white;
+    border: none;
+
+}
+
+.subscribe_btn{
+    color: rgb(255, 255, 255);
+    margin-top: 0px;
+    padding-top: 18px;
+    background-color: var(--theme-primary-color);
+    border:none;
+}
+
+
+
+
+/*============
+after
+============*/
+
+.activeH{
+	position: relative!important;
+}
+.activeH::after{
+	content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    top: 40px;
+    left: 9px;
+    background: var(--theme-primary-color);
+    overflow: hidden;
+}
+
+
+/*============
+Header
+============*/
+
+.nav-on-banner{
+    background-color: rgb(235, 235, 235);
+    background: transparent;
+	top: 0;
+	left: 0;
+	width: 100%;
+    z-index: 999;
+
+}
+.top-header{
+	font-weight: 600;
+	font-size: 13px;
+}
+
+
+a.nav-link{
+	color: white!important;
+}
+.nav-item{
+
+	margin: 10px;
+}
+
+.logo{
+    width: 150px!important;
+    height: 90px!important;
+}
+
+
+
+/*============
+.owl-carousel
+============*/
+
+.owl-carousel {
+    width: 100%;
+
+}
+.owl-places img {
+    width: 100%;
+    position: relative;
+    height: 750px;
+}
+
+.owl-places .welcome{
+    position: absolute;
+    margin-top: -428px;
+    margin-left: 610px;
+}
+
+.owl-places .welcome h1.text-center {
+    color: white;
+}
+
+.owl-places .welcome .italy{
+    margin-left: 40px!important;
+}
+.owl-dots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 2%;
+    color: red;
+}
+
+.owl-dots span {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.owl-dots button {
+    border: none !important;
+    outline: none !important;
+}
+
+.owl-nav button {
+    border: none !important;
+    outline: none !important;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff !important;
+    font-size: 65px !important;
+    font-weight: bolder !important;
+    background:none !important;
+}
+
+.owl-prev {
+    left: 1%;
+}
+
+.owl-next {
+    right: 1%;
+}
+
+
+
+
+/*========
+   Navbar
+==========*/
+.navbar{
+    transition: all 0.7s ease;
+}
+a.nav-link{
+    text-transform: uppercase;
+    font-family: var(--theme-general-font);
+    color: white;
+}
+
+.navbar.sticky{
+    padding: 0 0;
+    background-color: var(--theme-darkblue-color);
+    color: black!important;
+}
+
+a.nav-link:hover{
+    color: var(--theme-primary-color)!important;
+}
+
+.nav-item{
+    margin:20px 10px;
+
+}
+
+
+/*
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    border: none;
+    width: 200px;
+}
+
+.dropdown-menu {
+    text-transform: uppercase;
+    color: black!important;
+    font-family: var(--theme-general-font);
+    transition: all .5s linear;
+}
+
+ul.dropdown-menu{
+    width: 230px!important;
+}
+.dropdown-menu li a{
+    padding: 8px 0px !important;
+    text-align: center;
+}
+
+.dropdown-menu li a:hover{
+    color: var(--theme-primary-color)!important;
+    background-color: white!important;
+}
+
+a.nav-link:hover .dropdown-toggle::after {
+    color: var(--theme-primary-color)!important;
+}
+    /*====Prblm====*/
+
+.dropdown-toggle::after {
+    color: #000!important;
+}  */
+
+/*=======owl carousal Explore Bangladesh======
+*/
+.exp-bd{
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.exp-bd::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.exp-bd-1 {
+    background-image: url(assets/img/SO_02.jpg);
+}
+.exp-bd-2 {
+    background-image: url(assets/img/SO_02.jpg);
+}
+.exp-bd-3 {
+    background-image: url(assets/img/SO_02.jpg);
+}
+.exp-bd-4 {
+    background-image: url(assets/img/SO_02.jpg);
+}
+.exp-bd-5 {
+    background-image: url(assets/img/SO_02.jpg);
+}
+
+.owl-bd img{
+    height: 180px;
+    width: 80px;
+}
+
+
+.owl-bd .item a h5{
+    color:var(--theme-primary-color);
+}
+
+.owl-bd .item a p{
+    color:var(--theme-darkblue-color);
+}
+
+
+/*=======Registration======
+*/
+.Registration{
+    height: 150px;
+    margin-top: -10px;
+}
+.Registration .row.align-items-center {
+    padding-top: 49px;
+}
+.input_field{
+    width: 220px;
+}
+.input_field input, .input_field .select{
+    border: 1px solid #363E52;
+    background: transparent;
+    color: #AAB1B7;
+    height: 55px;
+
+}
+select#places {
+    margin-left: 8px;
+}
+
+
+
+/*======Popular Destination======*/
+
+.popular-destination{
+    background-color: #fbf5f7;
+    padding: 80px 0 90px 0!important;
+}
+
+
+.popular-destination p{
+    font-weight: 500;
+    color: var(--theme-gray-color);
+}
+
+.popular-destination img{
+        width: 400px!important;
+        height: 250px!important;
+        border-radius: 8px;
+
+}
+.popular-destination .box{
+    position: relative;
+     transition: all 500ms;
+}
+.popular-destination .box:hover{
+    margin-top: -10px;
+
+}
+.d_place{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.popular-destination h4{
+    color: #fff;
+}
+
+
+/*=======
+Subscribe
+=========*/
+.subscribe{
+    height: 190px;
+    margin-top:0px;
+    color: var(--theme-darkblue-color);
+    background-color: var(--theme-light-color);
+}
+.subscribe input{
+    height: 60px;
+    margin-right: 10px;
+}
+.subscribe .row.align-items-center {
+    padding-top: 49px;
+}
+
+
+
+/* .col-12.col-sm-6.py-2.wow.fadeInUp.member {
+    margin-top: 16px!important;
+} */
+
+/*=======
+Footer
+=========*/
+
+
+i.fab.fa-facebook-f {
+    padding-left: 2px;
+}
+
+#scroll{
+	position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 100;
+
+}
+
+a.designed:hover{
+    color: white;
+}
+
+a.swarnali:hover{
+    color: var(--theme-primary-color);
+}
+
+
+
+footer .social-icons a{
+	display: inline-block;
+    width: 45px;
+    height: 45px;
+    background-color: var(--theme-primary-color);
+    position: relative;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: -10px 10px;
+    padding: 5px 12px;
+    color: #fff;
+    box-shadow: 0px 1px 4px #bfbfc0, 0px -1px 2px #bfbfc0;
+}
+
+footer .social-icons a:hover{
+	filter: brightness(120%);
+	box-shadow:0px 0px 0px #bfbfc0, 0px 0px 0px #bfbfc0;
+
+}
+
+
+@media screen and (max-width: 991.98px) and (min-width: 768px){
+    .header-transparent{
+        background: black;
+
+    }
+
+    .nav-on-banner{
+        position: static!important;
+    }
+
+    .main-header{
+        padding: 25px 0px 25px 0px;
+    }
+
+    .main-header .navbar-toggler i{
+        font-size: 50px;
+    }
+
+
+    .logo{
+        width: 110px!important;
+        height: 70px!important;
+    }
+    .popular-destination img{
+        width: 650px!important;
+        height: 350px!important;
+        border-radius: 8px;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    img.popular_d{
+        margin-top: 8px;
+    }
+    .Subscribe{
+        height: 250px;
+        margin-top:10px;
+    }
+    .Registration{
+        height: 220px;
+        margin-top: -10px;
+    }
+
+}
+
+
+@media  (min-width: 1024px) and (max-width: 1366px){
+    .popular-destination img{
+        width:300px!important;
+        height: 200px!important;
+        border-radius: 8px;
+        position: relative;
+        padding: 10px;
+    }
+    .Registration{
+        height: 200px;
+        margin-top: -10px;
+    }
+    .Registration h4{
+        padding-left: 20px;
+    }
+
+}
+
+@media  (min-width: 1366px) and (max-width: 1900px) {
+    .popular-destination img{
+        width: 405px!important;
+        height: 250px!important;
+        border-radius: 8px;
+        position: relative;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .Registration h3.text-white {
+        font-size: 24px;
+    }
+    .d_place{
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+
+
+
+}
+
+
+@media  (max-width: 991.98px) and (min-width: 768px){
+    .subscribe{
+        height: 280px;
+    }
+
+}
+
+@media  (max-width: 991.98px) and (min-width: 768px){
+    footer{
+        height:150px;
+
+    }
+
+    footer .social-icons a{
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        background-color: var(--theme-primary-color);
+        position: relative;
+        border-radius: 50%;
+        font-size: 22px;
+        margin: 5px 10px;
+        padding: 5px 12px;
+        color: #fff;
+        box-shadow: 0px 1px 4px #bfbfc0, 0px -1px 2px #bfbfc0;
+    }
+
+    footer .social-icons a:hover{
+        filter: brightness(120%);
+        box-shadow:0px 0px 0px #bfbfc0, 0px 0px 0px #bfbfc0;
+
+    }
+
+}
+
+@media  (min-width: 1024px) and (max-width: 1900px){
+    footer{
+        height: 90px;
+
+    }
+
+    footer .social-icons a{
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+        background-color: var(--theme-primary-color);
+        position: relative;
+        border-radius: 50%;
+        font-size: 22px;
+        margin: 0px 10px 9px 0;
+        padding: 5px 12px;
+        color: #fff;
+        box-shadow: 0px 1px 4px #bfbfc0, 0px -1px 2px #bfbfc0;
+    }
+
+    footer .social-icons a:hover{
+        filter: brightness(120%);
+        box-shadow:0px 0px 0px #bfbfc0, 0px 0px 0px #bfbfc0;
+
+    }
+
+}
+
+
+/*====Owl======*/
+
+@media screen and (max-width: 991.98px) and (min-width: 768px){
+}
+
+@media  (min-width: 1024px) and (max-width: 1300px){
+}
+
+@media  (min-width: 1366px) and (max-width: 1900px) {
+    .welcome{
+        margin-right:676px;
+        margin-top: -30px;
+    }
+
+    .book {
+        margin-left: 14px!important;
+    }
+}
+
+
+@media (min-width: 1366px) and (max-width: 1500px){
+
+    footer span.white {
+        padding-top: 10px;
+    }
+    footer p.white {
+        padding-top: 10px;
+    }
+}
+
+
+.background {
+    background-color: rgb(225, 177, 177)!important;
+    height: 82px;
+    width: 100%;
+    background: #f2bebe;
+    opacity: .6;
+}

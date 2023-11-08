@@ -1,0 +1,233 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?fd18e7d54a5438c655b2282d8f243642") format("truetype"),
+url("./flaticon.woff?fd18e7d54a5438c655b2282d8f243642") format("woff"),
+url("./flaticon.woff2?fd18e7d54a5438c655b2282d8f243642") format("woff2"),
+url("./flaticon.eot?fd18e7d54a5438c655b2282d8f243642#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fd18e7d54a5438c655b2282d8f243642#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-mobile-app:before {
+    content: "\f101";
+}
+.flaticon-mobile-app-1:before {
+    content: "\f102";
+}
+.flaticon-mobile-app-2:before {
+    content: "\f103";
+}
+.flaticon-qr-code:before {
+    content: "\f104";
+}
+.flaticon-mobile-app-3:before {
+    content: "\f105";
+}
+.flaticon-coding:before {
+    content: "\f106";
+}
+.flaticon-smartphone-1:before {
+    content: "\f107";
+}
+.flaticon-smartphone-2:before {
+    content: "\f108";
+}
+.flaticon-test:before {
+    content: "\f109";
+}
+.flaticon-chat-1:before {
+    content: "\f10a";
+}
+.flaticon-conversation:before {
+    content: "\f10b";
+}
+.flaticon-chat-2:before {
+    content: "\f10c";
+}
+.flaticon-speech-bubble:before {
+    content: "\f10d";
+}
+.flaticon-free-time:before {
+    content: "\f10e";
+}
+.flaticon-event:before {
+    content: "\f10f";
+}
+.flaticon-calendar:before {
+    content: "\f110";
+}
+.flaticon-calendar-1:before {
+    content: "\f111";
+}
+.flaticon-calendar-2:before {
+    content: "\f112";
+}
+.flaticon-check-mark:before {
+    content: "\f113";
+}
+.flaticon-star:before {
+    content: "\f114";
+}
+.flaticon-arrowhead-pointing-to-the-right:before {
+    content: "\f115";
+}
+.flaticon-angle-arrow-down:before {
+    content: "\f116";
+}
+.flaticon-two-arrows-in-angle-pointing-down:before {
+    content: "\f117";
+}
+.flaticon-down-arrow-of-angle:before {
+    content: "\f118";
+}
+.flaticon-down-arrow:before {
+    content: "\f119";
+}
+.flaticon-play-button-arrowhead:before {
+    content: "\f11a";
+}
+.flaticon-play-button:before {
+    content: "\f11b";
+}
+.flaticon-play-button-1:before {
+    content: "\f11c";
+}
+.flaticon-play-button-2:before {
+    content: "\f11d";
+}
+.flaticon-play:before {
+    content: "\f11e";
+}
+.flaticon-play-button-3:before {
+    content: "\f11f";
+}
+.flaticon-play-1:before {
+    content: "\f120";
+}
+.flaticon-play-button-4:before {
+    content: "\f121";
+}
+.flaticon-play-2:before {
+    content: "\f122";
+}
+.flaticon-play-button-5:before {
+    content: "\f123";
+}
+.flaticon-heart:before {
+    content: "\f124";
+}
+.flaticon-like:before {
+    content: "\f125";
+}
+.flaticon-heart-1:before {
+    content: "\f126";
+}
+.flaticon-like-1:before {
+    content: "\f127";
+}
+.flaticon-heart-2:before {
+    content: "\f128";
+}
+.flaticon-heart-3:before {
+    content: "\f129";
+}
+.flaticon-heart-4:before {
+    content: "\f12a";
+}
+.flaticon-heart-simple-shape-silhouette:before {
+    content: "\f12b";
+}
+.flaticon-right-arrow:before {
+    content: "\f12c";
+}
+.flaticon-right-chevron:before {
+    content: "\f12d";
+}
+.flaticon-down-arrow-2:before {
+    content: "\f12e";
+}
+.flaticon-next:before {
+    content: "\f12f";
+}
+.flaticon-fast-forward-double-right-arrows-symbol:before {
+    content: "\f130";
+}
+.flaticon-next-1:before {
+    content: "\f131";
+}
+.flaticon-fast-forward:before {
+    content: "\f132";
+}
+.flaticon-left-arrow:before {
+    content: "\f133";
+}
+.flaticon-down-chevron:before {
+    content: "\f134";
+}
+.flaticon-play-button-6:before {
+    content: "\f135";
+}
+.flaticon-play-button-7:before {
+    content: "\f136";
+}
+.flaticon-play-button-8:before {
+    content: "\f137";
+}
+.flaticon-play-button-9:before {
+    content: "\f138";
+}
+.flaticon-play-button-10:before {
+    content: "\f139";
+}
+.flaticon-bath:before {
+    content: "\f13a";
+}
+.flaticon-bathtub:before {
+    content: "\f13b";
+}
+.flaticon-bath-2:before {
+    content: "\f13c";
+}
+.flaticon-king-size-bedroom:before {
+    content: "\f13d";
+}
+.flaticon-king-size:before {
+    content: "\f13e";
+}
+.flaticon-king-size-1:before {
+    content: "\f13f";
+}
+.flaticon-double-bed:before {
+    content: "\f140";
+}
+.flaticon-beach:before {
+    content: "\f141";
+}
+.flaticon-restaurant:before {
+    content: "\f142";
+}
+.flaticon-sunbed:before {
+    content: "\f143";
+}
+.flaticon-sunbed-1:before {
+    content: "\f144";
+}
+.flaticon-terrace:before {
+    content: "\f145";
+}
+.flaticon-beach-1:before {
+    content: "\f146";
+}
+.flaticon-summer-holidays-1:before {
+    content: "\f147";
+}

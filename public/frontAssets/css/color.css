@@ -1,0 +1,37 @@
+
+/*==================================
+Colors
+==================================*/
+:root{
+	--theme-primary-color: crimson; 
+}
+
+:root{
+	--theme-paragraph-color: #7a838b;
+}
+
+:root{
+	--theme-darkblue-color: #040E27;
+}
+:root{
+	--theme-light-color: #F7FAFD;
+}
+
+:root{
+	--theme-gray-color: gray;
+}
+
+:root{
+	--theme-white-color: #ffff; 
+}
+
+/*==================================
+Fonts
+==================================*/
+:root {
+	--theme-general-font: 'Rubik', sans-serif; /* Font use for normal text and general text */
+}
+
+:root {
+	--theme-highlight-font: 'Yatra One', cursive;  /* Font used in title or special area */
+}
